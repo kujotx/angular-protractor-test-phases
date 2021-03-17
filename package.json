@@ -9,7 +9,10 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "e2e:acceptance": "ng e2e \"--suite=acceptance\"",
+    "e2e:smoke": "ng e2e \"--suite=smoke\"",
+    "e2e:regression": "ng e2e \"--suite=regression\""
   },
   "private": true,
   "dependencies": {
